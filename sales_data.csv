@@ -1,0 +1,201 @@
+sale_id,date,day_of_week,product_name,category,size,color,quantity_sold,price (Rs.),discount (%),total_amount (Rs.),payment_method,customer_gender,age_group,store_section
+S001,2023-10-01,Sunday,Leather Belt,Accessories,S,Red,1,299,30,209,Cash,Female,Teen (13-19),Accessories
+S002,2023-10-02,Monday,Slim Fit Jeans,Bottoms,M,Navy Blue,1,999,0,999,Card,Male,Adult (31-45),Men
+S003,2023-10-04,Wednesday,Basic White T-Shirt,Tops,M,Red,2,399,0,798,Cash,Female,Adult (31-45),Men
+S004,2023-10-04,Wednesday,Floral Kurti,Ethnic Wear,L,Navy Blue,1,799,0,799,UPI,Female,Teen (13-19),Women
+S005,2023-10-05,Thursday,Running Shoes,Footwear,XL,Black,1,1499,0,1499,Card,Female,Adult (31-45),Men
+S006,2023-10-06,Friday,Party Wear Gown,Ethnic Wear,S,White,1,2499,20,1999,Cash,Female,Senior (46+),Women
+S007,2023-10-06,Friday,Leather Belt,Accessories,M,Red,1,299,50,150,Card,Female,Teen (13-19),Accessories
+S008,2023-10-07,Saturday,Leather Belt,Accessories,M,Neon Green,1,299,50,150,UPI,Other,Young Adult (20-30),Accessories
+S009,2023-10-08,Sunday,Oversized Hoodie,Tops,L,White,2,1199,10,2158,UPI,Male,Young Adult (20-30),Women
+S010,2023-10-09,Monday,Running Shoes,Footwear,L,White,1,1499,0,1499,Card,Female,Adult (31-45),Men
+S011,2023-10-09,Monday,Kids Denim Jacket,Tops,L,Neon Green,1,899,10,809,UPI,Male,Young Adult (20-30),Kids
+S012,2023-10-10,Tuesday,Slim Fit Jeans,Bottoms,S,Neon Green,1,999,0,999,Card,Male,Senior (46+),Men
+S013,2023-10-11,Wednesday,Basic White T-Shirt,Tops,M,Olive,2,399,0,798,Card,Male,Adult (31-45),Men
+S014,2023-10-12,Thursday,Basic White T-Shirt,Tops,M,White,1,399,20,319,Card,Male,Young Adult (20-30),Men
+S015,2023-10-13,Friday,Slim Fit Jeans,Bottoms,L,Neon Green,1,999,0,999,UPI,Female,Teen (13-19),Men
+S016,2023-10-14,Saturday,Basic White T-Shirt,Tops,M,Red,2,399,10,718,UPI,Male,Young Adult (20-30),Men
+S017,2023-10-15,Sunday,Oversized Hoodie,Tops,S,Black,2,1199,20,1918,Card,Female,Young Adult (20-30),Women
+S018,2023-10-16,Monday,Oversized Hoodie,Tops,M,Olive,2,1199,0,2398,Cash,Female,Young Adult (20-30),Women
+S019,2023-10-18,Wednesday,Leather Belt,Accessories,M,Olive,1,299,50,150,Cash,Male,Young Adult (20-30),Accessories
+S020,2023-10-19,Thursday,Slim Fit Jeans,Bottoms,L,Navy Blue,1,999,20,799,UPI,Male,Adult (31-45),Men
+S021,2023-10-19,Thursday,Basic White T-Shirt,Tops,L,Neon Green,2,399,0,798,UPI,Male,Senior (46+),Men
+S022,2023-10-20,Friday,Floral Kurti,Ethnic Wear,S,Black,1,799,0,799,Card,Male,Teen (13-19),Women
+S023,2023-10-20,Friday,Party Wear Gown,Ethnic Wear,L,Navy Blue,1,2499,0,2499,UPI,Male,Young Adult (20-30),Women
+S024,2023-10-20,Friday,Floral Kurti,Ethnic Wear,XL,Black,2,799,10,1438,Cash,Male,Teen (13-19),Women
+S025,2023-10-21,Saturday,Oversized Hoodie,Tops,XL,White,1,1199,0,1199,UPI,Female,Young Adult (20-30),Women
+S026,2023-10-21,Saturday,Oversized Hoodie,Tops,M,Black,1,1199,0,1199,Card,Other,Senior (46+),Women
+S027,2023-10-21,Saturday,Floral Kurti,Ethnic Wear,XL,Olive,1,799,0,799,UPI,Male,Senior (46+),Women
+S028,2023-10-21,Saturday,Oversized Hoodie,Tops,M,Olive,1,1199,0,1199,Card,Male,Young Adult (20-30),Women
+S029,2023-10-21,Saturday,Oversized Hoodie,Tops,L,Olive,1,1199,0,1199,UPI,Female,Adult (31-45),Women
+S030,2023-10-22,Sunday,Floral Kurti,Ethnic Wear,L,White,1,799,0,799,Card,Male,Adult (31-45),Women
+S031,2023-10-23,Monday,Oversized Hoodie,Tops,XS,Olive,3,1199,20,2878,Cash,Female,Adult (31-45),Women
+S032,2023-10-23,Monday,Basic White T-Shirt,Tops,S,White,1,399,0,399,Card,Female,Teen (13-19),Men
+S033,2023-10-25,Wednesday,Oversized Hoodie,Tops,S,White,1,1199,10,1079,Card,Female,Adult (31-45),Women
+S034,2023-10-25,Wednesday,Floral Kurti,Ethnic Wear,M,Neon Green,1,799,0,799,UPI,Male,Teen (13-19),Women
+S035,2023-10-25,Wednesday,Basic White T-Shirt,Tops,M,Navy Blue,1,399,0,399,UPI,Male,Senior (46+),Men
+S036,2023-10-26,Thursday,Basic White T-Shirt,Tops,XS,Navy Blue,2,399,0,798,Cash,Female,Adult (31-45),Men
+S037,2023-10-27,Friday,Slim Fit Jeans,Bottoms,M,Red,1,999,20,799,Cash,Female,Young Adult (20-30),Men
+S038,2023-10-28,Saturday,Leather Belt,Accessories,M,Olive,2,299,50,299,Card,Female,Teen (13-19),Accessories
+S039,2023-10-29,Sunday,Floral Kurti,Ethnic Wear,M,White,2,799,0,1598,Card,Female,Senior (46+),Women
+S040,2023-10-30,Monday,Oversized Hoodie,Tops,XL,Red,1,1199,10,1079,UPI,Female,Senior (46+),Women
+S041,2023-10-30,Monday,Kids Denim Jacket,Tops,M,Red,2,899,10,1618,Cash,Male,Young Adult (20-30),Kids
+S042,2023-11-01,Wednesday,Slim Fit Jeans,Bottoms,L,Red,1,999,0,999,Card,Male,Teen (13-19),Men
+S043,2023-11-01,Wednesday,Oversized Hoodie,Tops,M,Red,1,1199,0,1199,UPI,Female,Adult (31-45),Women
+S044,2023-11-02,Thursday,Oversized Hoodie,Tops,M,Olive,1,1199,0,1199,UPI,Male,Young Adult (20-30),Women
+S045,2023-11-03,Friday,Slim Fit Jeans,Bottoms,L,Red,1,999,0,999,Cash,Female,Adult (31-45),Men
+S046,2023-11-04,Saturday,Leather Belt,Accessories,M,Neon Green,1,299,30,209,UPI,Female,Teen (13-19),Accessories
+S047,2023-11-04,Saturday,Kids Denim Jacket,Tops,M,Olive,1,899,0,899,Cash,Male,Young Adult (20-30),Kids
+S048,2023-11-04,Saturday,Running Shoes,Footwear,L,Black,1,1499,0,1499,Card,Female,Young Adult (20-30),Men
+S049,2023-11-05,Sunday,Floral Kurti,Ethnic Wear,L,Olive,1,799,10,719,Cash,Female,Young Adult (20-30),Women
+S050,2023-11-06,Monday,Slim Fit Jeans,Bottoms,S,Black,1,999,10,899,UPI,Male,Adult (31-45),Men
+S051,2023-11-08,Wednesday,Basic White T-Shirt,Tops,M,Neon Green,1,399,10,359,Cash,Female,Young Adult (20-30),Men
+S052,2023-11-08,Wednesday,Oversized Hoodie,Tops,L,Navy Blue,1,1199,20,959,Cash,Female,Senior (46+),Women
+S053,2023-11-09,Thursday,Oversized Hoodie,Tops,L,Black,1,1199,10,1079,Card,Male,Senior (46+),Women
+S054,2023-11-10,Friday,Kids Denim Jacket,Tops,M,Red,1,899,10,809,UPI,Female,Senior (46+),Kids
+S055,2023-11-11,Saturday,Floral Kurti,Ethnic Wear,S,Red,1,799,0,799,Card,Male,Young Adult (20-30),Women
+S056,2023-11-11,Saturday,Party Wear Gown,Ethnic Wear,L,Navy Blue,1,2499,0,2499,UPI,Male,Young Adult (20-30),Women
+S057,2023-11-12,Sunday,Basic White T-Shirt,Tops,L,Neon Green,1,399,10,359,Card,Male,Teen (13-19),Men
+S058,2023-11-13,Monday,Floral Kurti,Ethnic Wear,M,Black,1,799,10,719,Card,Female,Senior (46+),Women
+S059,2023-11-13,Monday,Basic White T-Shirt,Tops,S,Red,1,399,10,359,Card,Male,Senior (46+),Men
+S060,2023-11-15,Wednesday,Running Shoes,Footwear,XL,Olive,1,1499,0,1499,Card,Male,Senior (46+),Men
+S061,2023-11-15,Wednesday,Floral Kurti,Ethnic Wear,M,Black,1,799,10,719,UPI,Male,Senior (46+),Women
+S062,2023-11-15,Wednesday,Slim Fit Jeans,Bottoms,S,Olive,1,999,20,799,Cash,Female,Teen (13-19),Men
+S063,2023-11-16,Thursday,Oversized Hoodie,Tops,M,Navy Blue,1,1199,0,1199,UPI,Female,Young Adult (20-30),Women
+S064,2023-11-17,Friday,Floral Kurti,Ethnic Wear,M,Olive,1,799,10,719,Cash,Female,Young Adult (20-30),Women
+S065,2023-11-18,Saturday,Slim Fit Jeans,Bottoms,S,Red,1,999,20,799,UPI,Male,Young Adult (20-30),Men
+S066,2023-11-18,Saturday,Party Wear Gown,Ethnic Wear,L,Navy Blue,1,2499,0,2499,Card,Female,Teen (13-19),Women
+S067,2023-11-19,Sunday,Running Shoes,Footwear,S,Olive,1,1499,0,1499,Card,Female,Teen (13-19),Men
+S068,2023-11-20,Monday,Winter Beanie,Accessories,S,Red,1,199,50,100,Card,Male,Young Adult (20-30),Accessories
+S069,2023-11-22,Wednesday,Floral Kurti,Ethnic Wear,L,Olive,1,799,0,799,Card,Female,Adult (31-45),Women
+S070,2023-11-23,Thursday,Winter Beanie,Accessories,S,Black,1,199,50,100,Card,Female,Teen (13-19),Accessories
+S071,2023-11-24,Friday,Basic White T-Shirt,Tops,M,Black,1,399,10,359,UPI,Male,Adult (31-45),Men
+S072,2023-11-25,Saturday,Running Shoes,Footwear,M,White,1,1499,0,1499,Cash,Female,Senior (46+),Men
+S073,2023-11-25,Saturday,Slim Fit Jeans,Bottoms,M,Black,1,999,0,999,Card,Male,Adult (31-45),Men
+S074,2023-11-25,Saturday,Kids Denim Jacket,Tops,M,Neon Green,1,899,0,899,Cash,Male,Young Adult (20-30),Kids
+S075,2023-11-25,Saturday,Kids Denim Jacket,Tops,XL,Neon Green,1,899,0,899,UPI,Male,Adult (31-45),Kids
+S076,2023-11-26,Sunday,Winter Beanie,Accessories,M,Red,1,199,30,139,Card,Male,Teen (13-19),Accessories
+S077,2023-11-27,Monday,Running Shoes,Footwear,L,White,1,1499,10,1349,Cash,Female,Adult (31-45),Men
+S078,2023-11-29,Wednesday,Floral Kurti,Ethnic Wear,S,Black,1,799,0,799,UPI,Male,Teen (13-19),Women
+S079,2023-11-29,Wednesday,Kids Denim Jacket,Tops,XL,Navy Blue,3,899,0,2697,UPI,Female,Young Adult (20-30),Kids
+S080,2023-11-30,Thursday,Basic White T-Shirt,Tops,XL,Red,2,399,20,638,UPI,Female,Teen (13-19),Men
+S081,2023-12-01,Friday,Kids Denim Jacket,Tops,XL,White,1,899,0,899,Cash,Male,Young Adult (20-30),Kids
+S082,2023-12-02,Saturday,Floral Kurti,Ethnic Wear,M,Neon Green,1,799,0,799,Cash,Male,Adult (31-45),Women
+S083,2023-12-03,Sunday,Basic White T-Shirt,Tops,L,Red,1,399,0,399,Card,Female,Young Adult (20-30),Men
+S084,2023-12-03,Sunday,Running Shoes,Footwear,L,Red,2,1499,0,2998,Cash,Female,Adult (31-45),Men
+S085,2023-12-03,Sunday,Basic White T-Shirt,Tops,M,Black,2,399,0,798,UPI,Male,Teen (13-19),Men
+S086,2023-12-04,Monday,Party Wear Gown,Ethnic Wear,L,Navy Blue,1,2499,20,1999,Card,Female,Teen (13-19),Women
+S087,2023-12-06,Wednesday,Floral Kurti,Ethnic Wear,S,White,1,799,0,799,UPI,Male,Senior (46+),Women
+S088,2023-12-07,Thursday,Basic White T-Shirt,Tops,S,Red,1,399,0,399,Cash,Female,Adult (31-45),Men
+S089,2023-12-08,Friday,Basic White T-Shirt,Tops,L,Black,2,399,0,798,UPI,Male,Adult (31-45),Men
+S090,2023-12-09,Saturday,Oversized Hoodie,Tops,M,Olive,2,1199,0,2398,Card,Female,Teen (13-19),Women
+S091,2023-12-09,Saturday,Basic White T-Shirt,Tops,L,Neon Green,1,399,0,399,UPI,Female,Adult (31-45),Men
+S092,2023-12-09,Saturday,Party Wear Gown,Ethnic Wear,M,Neon Green,1,2499,0,2499,Cash,Male,Teen (13-19),Women
+S093,2023-12-09,Saturday,Slim Fit Jeans,Bottoms,XL,Navy Blue,1,999,0,999,Cash,Male,Adult (31-45),Men
+S094,2023-12-09,Saturday,Floral Kurti,Ethnic Wear,XL,Black,1,799,0,799,UPI,Male,Young Adult (20-30),Women
+S095,2023-12-10,Sunday,Floral Kurti,Ethnic Wear,L,Black,1,799,10,719,UPI,Female,Adult (31-45),Women
+S096,2023-12-11,Monday,Winter Beanie,Accessories,L,Neon Green,1,199,30,139,Card,Female,Teen (13-19),Accessories
+S097,2023-12-13,Wednesday,Basic White T-Shirt,Tops,XL,White,3,399,0,1197,UPI,Male,Senior (46+),Men
+S098,2023-12-13,Wednesday,Kids Denim Jacket,Tops,L,Black,1,899,0,899,Card,Other,Senior (46+),Kids
+S099,2023-12-14,Thursday,Slim Fit Jeans,Bottoms,XL,Red,2,999,10,1798,UPI,Male,Senior (46+),Men
+S100,2023-12-14,Thursday,Slim Fit Jeans,Bottoms,XL,White,1,999,10,899,UPI,Male,Senior (46+),Men
+S101,2023-12-15,Friday,Oversized Hoodie,Tops,XL,Olive,1,1199,0,1199,Card,Female,Senior (46+),Women
+S102,2023-12-16,Saturday,Slim Fit Jeans,Bottoms,S,Neon Green,1,999,0,999,Cash,Female,Senior (46+),Men
+S103,2023-12-17,Sunday,Kids Denim Jacket,Tops,L,Navy Blue,1,899,0,899,Cash,Male,Teen (13-19),Kids
+S104,2023-12-17,Sunday,Basic White T-Shirt,Tops,M,Olive,1,399,0,399,Cash,Male,Teen (13-19),Men
+S105,2023-12-18,Monday,Basic White T-Shirt,Tops,L,Black,2,399,0,798,UPI,Female,Senior (46+),Men
+S106,2023-12-18,Monday,Slim Fit Jeans,Bottoms,L,Red,1,999,0,999,UPI,Female,Adult (31-45),Men
+S107,2023-12-20,Wednesday,Floral Kurti,Ethnic Wear,XL,White,3,799,10,2157,Cash,Male,Adult (31-45),Women
+S108,2023-12-21,Thursday,Oversized Hoodie,Tops,M,Neon Green,1,1199,0,1199,Card,Female,Teen (13-19),Women
+S109,2023-12-22,Friday,Kids Denim Jacket,Tops,XL,Red,1,899,0,899,UPI,Male,Young Adult (20-30),Kids
+S110,2023-12-23,Saturday,Leather Belt,Accessories,L,Neon Green,1,299,30,209,Cash,Female,Teen (13-19),Accessories
+S111,2023-12-24,Sunday,Basic White T-Shirt,Tops,M,Olive,1,399,0,399,UPI,Male,Senior (46+),Men
+S112,2023-12-24,Sunday,Slim Fit Jeans,Bottoms,L,Red,1,999,20,799,Cash,Male,Senior (46+),Men
+S113,2023-12-25,Monday,Floral Kurti,Ethnic Wear,XL,Navy Blue,1,799,0,799,Cash,Female,Senior (46+),Women
+S114,2023-12-27,Wednesday,Basic White T-Shirt,Tops,L,Navy Blue,1,399,0,399,UPI,Female,Adult (31-45),Men
+S115,2023-12-28,Thursday,Winter Beanie,Accessories,XL,Navy Blue,1,199,50,100,Card,Female,Teen (13-19),Accessories
+S116,2023-12-29,Friday,Oversized Hoodie,Tops,M,Navy Blue,1,1199,0,1199,Card,Male,Senior (46+),Women
+S117,2023-12-29,Friday,Slim Fit Jeans,Bottoms,S,Black,1,999,0,999,Card,Male,Adult (31-45),Men
+S118,2023-12-30,Saturday,Oversized Hoodie,Tops,L,Olive,1,1199,10,1079,Cash,Female,Teen (13-19),Women
+S119,2023-12-31,Sunday,Leather Belt,Accessories,XL,Red,1,299,50,150,UPI,Male,Young Adult (20-30),Accessories
+S120,2024-01-01,Monday,Slim Fit Jeans,Bottoms,L,Olive,2,999,0,1998,Cash,Male,Young Adult (20-30),Men
+S121,2024-01-03,Wednesday,Winter Beanie,Accessories,S,White,1,199,50,100,Cash,Male,Adult (31-45),Accessories
+S122,2024-01-03,Wednesday,Slim Fit Jeans,Bottoms,L,Navy Blue,2,999,0,1998,Card,Male,Adult (31-45),Men
+S123,2024-01-04,Thursday,Slim Fit Jeans,Bottoms,XL,Navy Blue,1,999,20,799,Cash,Male,Adult (31-45),Men
+S124,2024-01-04,Thursday,Oversized Hoodie,Tops,M,Red,1,1199,0,1199,UPI,Male,Adult (31-45),Women
+S125,2024-01-04,Thursday,Kids Denim Jacket,Tops,L,Neon Green,1,899,0,899,UPI,Female,Teen (13-19),Kids
+S126,2024-01-05,Friday,Floral Kurti,Ethnic Wear,L,Neon Green,1,799,10,719,Card,Male,Teen (13-19),Women
+S127,2024-01-05,Friday,Basic White T-Shirt,Tops,M,Neon Green,1,399,10,359,UPI,Male,Teen (13-19),Men
+S128,2024-01-06,Saturday,Slim Fit Jeans,Bottoms,M,Olive,1,999,0,999,UPI,Male,Adult (31-45),Men
+S129,2024-01-06,Saturday,Leather Belt,Accessories,S,Neon Green,1,299,50,150,Card,Female,Teen (13-19),Accessories
+S130,2024-01-06,Saturday,Basic White T-Shirt,Tops,M,Red,2,399,0,798,Card,Male,Senior (46+),Men
+S131,2024-01-06,Saturday,Floral Kurti,Ethnic Wear,XL,Neon Green,2,799,0,1598,Cash,Male,Teen (13-19),Women
+S132,2024-01-07,Sunday,Basic White T-Shirt,Tops,M,Navy Blue,1,399,0,399,UPI,Female,Senior (46+),Men
+S133,2024-01-07,Sunday,Leather Belt,Accessories,L,Neon Green,1,299,50,150,UPI,Male,Young Adult (20-30),Accessories
+S134,2024-01-07,Sunday,Basic White T-Shirt,Tops,XL,Red,2,399,0,798,UPI,Female,Senior (46+),Men
+S135,2024-01-08,Monday,Oversized Hoodie,Tops,XL,Olive,1,1199,0,1199,Card,Female,Adult (31-45),Women
+S136,2024-01-08,Monday,Floral Kurti,Ethnic Wear,L,Red,1,799,0,799,Cash,Female,Senior (46+),Women
+S137,2024-01-08,Monday,Kids Denim Jacket,Tops,XL,Navy Blue,1,899,0,899,UPI,Female,Young Adult (20-30),Kids
+S138,2024-01-10,Wednesday,Kids Denim Jacket,Tops,L,Navy Blue,2,899,0,1798,Card,Male,Teen (13-19),Kids
+S139,2024-01-10,Wednesday,Leather Belt,Accessories,M,Black,1,299,50,150,Card,Male,Senior (46+),Accessories
+S140,2024-01-10,Wednesday,Leather Belt,Accessories,L,Olive,1,299,30,209,UPI,Other,Teen (13-19),Accessories
+S141,2024-01-10,Wednesday,Basic White T-Shirt,Tops,M,White,1,399,0,399,Cash,Male,Senior (46+),Men
+S142,2024-01-10,Wednesday,Basic White T-Shirt,Tops,L,Olive,1,399,0,399,UPI,Male,Teen (13-19),Men
+S143,2024-01-11,Thursday,Basic White T-Shirt,Tops,S,Red,1,399,0,399,Card,Female,Adult (31-45),Men
+S144,2024-01-11,Thursday,Slim Fit Jeans,Bottoms,M,Olive,1,999,0,999,UPI,Male,Teen (13-19),Men
+S145,2024-01-11,Thursday,Running Shoes,Footwear,L,Black,2,1499,10,2698,Cash,Male,Young Adult (20-30),Men
+S146,2024-01-11,Thursday,Leather Belt,Accessories,L,White,2,299,50,299,Card,Other,Young Adult (20-30),Accessories
+S147,2024-01-11,Thursday,Slim Fit Jeans,Bottoms,M,Olive,1,999,10,899,Cash,Male,Senior (46+),Men
+S148,2024-01-12,Friday,Running Shoes,Footwear,L,Neon Green,2,1499,0,2998,Card,Other,Adult (31-45),Men
+S149,2024-01-13,Saturday,Leather Belt,Accessories,M,Navy Blue,1,299,50,150,UPI,Female,Teen (13-19),Accessories
+S150,2024-01-13,Saturday,Slim Fit Jeans,Bottoms,M,Navy Blue,1,999,10,899,Cash,Male,Adult (31-45),Men
+S151,2024-01-14,Sunday,Running Shoes,Footwear,M,Olive,3,1499,10,4047,Cash,Male,Young Adult (20-30),Men
+S152,2024-01-14,Sunday,Basic White T-Shirt,Tops,M,Navy Blue,1,399,10,359,UPI,Other,Teen (13-19),Men
+S153,2024-01-14,Sunday,Floral Kurti,Ethnic Wear,M,Black,3,799,0,2397,Card,Male,Adult (31-45),Women
+S154,2024-01-15,Monday,Basic White T-Shirt,Tops,L,Neon Green,1,399,10,359,Card,Male,Adult (31-45),Men
+S155,2024-01-15,Monday,Leather Belt,Accessories,M,Neon Green,2,299,50,299,Card,Female,Teen (13-19),Accessories
+S156,2024-01-17,Wednesday,Slim Fit Jeans,Bottoms,M,Neon Green,1,999,0,999,Card,Female,Teen (13-19),Men
+S157,2024-01-18,Thursday,Basic White T-Shirt,Tops,L,White,1,399,10,359,Card,Other,Teen (13-19),Men
+S158,2024-01-19,Friday,Basic White T-Shirt,Tops,M,Red,1,399,20,319,UPI,Female,Senior (46+),Men
+S159,2024-01-19,Friday,Oversized Hoodie,Tops,M,Red,2,1199,0,2398,Card,Female,Teen (13-19),Women
+S160,2024-01-20,Saturday,Oversized Hoodie,Tops,L,Olive,1,1199,0,1199,Card,Female,Young Adult (20-30),Women
+S161,2024-01-21,Sunday,Slim Fit Jeans,Bottoms,M,Neon Green,1,999,0,999,UPI,Female,Senior (46+),Men
+S162,2024-01-21,Sunday,Floral Kurti,Ethnic Wear,XL,Black,2,799,0,1598,Card,Female,Senior (46+),Women
+S163,2024-01-21,Sunday,Floral Kurti,Ethnic Wear,M,Olive,1,799,0,799,Cash,Female,Young Adult (20-30),Women
+S164,2024-01-22,Monday,Slim Fit Jeans,Bottoms,M,Red,1,999,0,999,Card,Female,Adult (31-45),Men
+S165,2024-01-22,Monday,Floral Kurti,Ethnic Wear,M,Olive,1,799,0,799,Cash,Female,Adult (31-45),Women
+S166,2024-01-24,Wednesday,Basic White T-Shirt,Tops,M,Black,3,399,0,1197,Cash,Male,Teen (13-19),Men
+S167,2024-01-25,Thursday,Leather Belt,Accessories,L,White,1,299,50,150,UPI,Female,Teen (13-19),Accessories
+S168,2024-01-25,Thursday,Party Wear Gown,Ethnic Wear,M,Navy Blue,2,2499,0,4998,Cash,Female,Senior (46+),Women
+S169,2024-01-25,Thursday,Floral Kurti,Ethnic Wear,M,Navy Blue,1,799,0,799,Card,Female,Teen (13-19),Women
+S170,2024-01-26,Friday,Basic White T-Shirt,Tops,L,Neon Green,1,399,0,399,Cash,Male,Teen (13-19),Men
+S171,2024-01-27,Saturday,Floral Kurti,Ethnic Wear,M,Neon Green,1,799,0,799,UPI,Male,Teen (13-19),Women
+S172,2024-01-27,Saturday,Basic White T-Shirt,Tops,L,Red,1,399,0,399,Cash,Male,Teen (13-19),Men
+S173,2024-01-28,Sunday,Party Wear Gown,Ethnic Wear,M,Navy Blue,1,2499,0,2499,Card,Male,Senior (46+),Women
+S174,2024-01-29,Monday,Basic White T-Shirt,Tops,M,White,1,399,10,359,UPI,Male,Young Adult (20-30),Men
+S175,2024-01-29,Monday,Floral Kurti,Ethnic Wear,S,Red,1,799,20,639,Card,Female,Teen (13-19),Women
+S176,2024-01-31,Wednesday,Basic White T-Shirt,Tops,L,Neon Green,1,399,0,399,UPI,Male,Senior (46+),Men
+S177,2024-02-01,Thursday,Oversized Hoodie,Tops,M,White,1,1199,0,1199,Card,Male,Teen (13-19),Women
+S178,2024-02-02,Friday,Slim Fit Jeans,Bottoms,L,White,1,999,0,999,Cash,Male,Adult (31-45),Men
+S179,2024-02-03,Saturday,Leather Belt,Accessories,M,Neon Green,1,299,50,150,Card,Female,Teen (13-19),Accessories
+S180,2024-02-03,Saturday,Oversized Hoodie,Tops,M,Navy Blue,1,1199,0,1199,UPI,Female,Young Adult (20-30),Women
+S181,2024-02-04,Sunday,Slim Fit Jeans,Bottoms,L,Black,1,999,0,999,Card,Male,Adult (31-45),Men
+S182,2024-02-05,Monday,Slim Fit Jeans,Bottoms,M,Black,2,999,0,1998,Cash,Male,Adult (31-45),Men
+S183,2024-02-07,Wednesday,Floral Kurti,Ethnic Wear,M,Neon Green,1,799,0,799,Card,Male,Adult (31-45),Women
+S184,2024-02-08,Thursday,Floral Kurti,Ethnic Wear,L,Neon Green,2,799,0,1598,Cash,Male,Teen (13-19),Women
+S185,2024-02-09,Friday,Oversized Hoodie,Tops,M,Navy Blue,2,1199,20,1918,UPI,Female,Teen (13-19),Women
+S186,2024-02-10,Saturday,Floral Kurti,Ethnic Wear,M,White,1,799,20,639,Card,Male,Adult (31-45),Women
+S187,2024-02-10,Saturday,Slim Fit Jeans,Bottoms,M,White,1,999,0,999,UPI,Female,Adult (31-45),Men
+S188,2024-02-10,Saturday,Oversized Hoodie,Tops,M,Navy Blue,1,1199,0,1199,Card,Female,Senior (46+),Women
+S189,2024-02-11,Sunday,Winter Beanie,Accessories,S,Red,1,199,50,100,Card,Female,Teen (13-19),Accessories
+S190,2024-02-11,Sunday,Winter Beanie,Accessories,L,Olive,1,199,50,100,UPI,Female,Teen (13-19),Accessories
+S191,2024-02-12,Monday,Winter Beanie,Accessories,L,Red,1,199,50,100,Card,Male,Adult (31-45),Accessories
+S192,2024-02-14,Wednesday,Leather Belt,Accessories,L,White,1,299,50,150,Cash,Female,Teen (13-19),Accessories
+S193,2024-02-14,Wednesday,Oversized Hoodie,Tops,M,Neon Green,1,1199,20,959,UPI,Female,Teen (13-19),Women
+S194,2024-02-15,Thursday,Slim Fit Jeans,Bottoms,S,Neon Green,1,999,0,999,Cash,Female,Senior (46+),Men
+S195,2024-02-16,Friday,Slim Fit Jeans,Bottoms,XL,Olive,1,999,20,799,UPI,Male,Senior (46+),Men
+S196,2024-02-16,Friday,Slim Fit Jeans,Bottoms,S,Black,1,999,0,999,UPI,Male,Adult (31-45),Men
+S197,2024-02-17,Saturday,Basic White T-Shirt,Tops,XL,Red,3,399,0,1197,UPI,Female,Teen (13-19),Men
+S198,2024-02-17,Saturday,Basic White T-Shirt,Tops,M,White,1,399,0,399,UPI,Female,Senior (46+),Men
+S199,2024-02-17,Saturday,Oversized Hoodie,Tops,M,Red,2,1199,10,2158,Cash,Female,Senior (46+),Women
+S200,2024-02-18,Sunday,Basic White T-Shirt,Tops,XL,Black,1,399,20,319,Card,Female,Young Adult (20-30),Men
