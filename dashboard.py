@@ -48,8 +48,8 @@ Please analyze this data and answer the following 5 questions (and 1 bonus quest
 CRITICAL INSTRUCTIONS FOR FORMATTING:
 - For Question 4 (Buying Patterns), DO NOT just repeat the numbers. You MUST write 2 detailed bullet points explaining the demographic trend and giving a specific store layout or stocking recommendation (e.g. placing accessories near the checkout counter).
 - Include the Bonus question: Which item should we put on sale this weekend and why?
-- You MUST provide the ENTIRE report in English first, followed by the ENTIRE report translated into Hindi.
-- At the very end, include a "What to Avoid 🚫" section with 3 strict warnings. The warnings must be written in English first, and then in Hindi.
+- You MUST provide the ENTIRE report in English.
+- At the very end, include a "What to Avoid 🚫" section with 3 strict warnings.
 
 Questions:
 1. Which products are selling well and which are not? (For the 3 slow products, give one simple reason why)
