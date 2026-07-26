@@ -106,16 +106,6 @@ def generate_pdf(text_content):
 with st.sidebar:
     st.header("⚙️ Configuration")
     st.info("Upload your store's CSV file to generate live AI insights.")
-    
-    # Try to intelligently get the API key from environment or secrets first
-    env_api_key = os.getenv("GROQ_API_KEY", "")
-    try:
-        if not env_api_key and "GROQ_API_KEY" in st.secrets:
-            env_api_key = st.secrets["GROQ_API_KEY"]
-    except Exception:
-        pass
-        
-    api_key = st.text_input("Groq API Key", type="password", value=env_api_key, placeholder="gsk_...", help="Leave blank if already configured in Streamlit Secrets or Environment Variables.")
     uploaded_file = st.file_uploader("Upload Sales Data (CSV)", type=['csv'])
 
 # --- Main App ---
@@ -202,8 +192,16 @@ st.markdown("---")
 st.subheader("🤖 Generate AI Store Report")
 
 if st.button("Generate AI Insights", type="primary"):
+    # Securely fetch API key from backend (Environment or Streamlit Secrets)
+    api_key = os.getenv("GROQ_API_KEY", "")
+    try:
+        if not api_key and "GROQ_API_KEY" in st.secrets:
+            api_key = st.secrets["GROQ_API_KEY"]
+    except Exception:
+        pass
+
     if not api_key:
-        st.error("Please enter your Groq API Key in the sidebar first!")
+        st.error("Backend Error: Groq API Key is not configured in Streamlit Secrets!")
     else:
         with st.spinner("Analyzing data and generating report via Llama 3.3..."):
             try:
