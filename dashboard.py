@@ -85,8 +85,17 @@ def generate_pdf(text_content):
 # --- Sidebar ---
 with st.sidebar:
     st.header("⚙️ Configuration")
-    st.info("Upload your store's CSV file and provide a Groq API key to generate live AI insights.")
-    api_key = st.text_input("Groq API Key", type="password", placeholder="gsk_...")
+    st.info("Upload your store's CSV file to generate live AI insights.")
+    
+    # Try to intelligently get the API key from environment or secrets first
+    env_api_key = os.getenv("GROQ_API_KEY", "")
+    try:
+        if not env_api_key and "GROQ_API_KEY" in st.secrets:
+            env_api_key = st.secrets["GROQ_API_KEY"]
+    except Exception:
+        pass
+        
+    api_key = st.text_input("Groq API Key", type="password", value=env_api_key, placeholder="gsk_...", help="Leave blank if already configured in Streamlit Secrets or Environment Variables.")
     uploaded_file = st.file_uploader("Upload Sales Data (CSV)", type=['csv'])
 
 # --- Main App ---
