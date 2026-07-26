@@ -61,8 +61,22 @@ Questions:
     return summary_text
 
 def generate_pdf(text_content):
-    # Remove emojis that break standard PDF fonts (like 🚫)
-    text_content = "".join(c for c in text_content if ord(c) <= 0xFFFF).replace('🚫', '')
+    # Replace common smart punctuation
+    replacements = {
+        '“': '"', '”': '"', '‘': "'", '’': "'",
+        '—': '-', '–': '-', '…': '...', '•': '-',
+        '₹': 'Rs.', '🚫': ''
+    }
+    for k, v in replacements.items():
+        text_content = text_content.replace(k, v)
+        
+    # Keep ONLY basic ASCII and Devanagari to prevent FPDF crashes
+    safe_chars = []
+    for c in text_content:
+        o = ord(c)
+        if o < 128 or (0x0900 <= o <= 0x097F) or c in '\n\r\t':
+            safe_chars.append(c)
+    text_content = "".join(safe_chars)
     
     # Create PDF using fpdf2
     pdf = FPDF()
