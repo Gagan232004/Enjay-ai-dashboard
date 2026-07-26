@@ -195,7 +195,7 @@ if st.button("Generate AI Insights", type="primary"):
                     messages=[
                         {
                             "role": "system",
-                            "content": "You are a brilliant retail data analyst. Provide specific, data-backed business answers based solely on the provided summary. Do not make up numbers. Use standard plain text markdown (do not use complex tables or emojis that break PDF rendering)."
+                            "content": "You are a brilliant retail data analyst. Provide specific, data-backed business answers based solely on the provided summary. Do not make up numbers. You MUST format your response to match the exact structure, tone, and headings of the following example report. Here is the strict template you must follow:\n\n" + open("store_report.md", "r", encoding="utf-8").read()
                         },
                         {
                             "role": "user",
