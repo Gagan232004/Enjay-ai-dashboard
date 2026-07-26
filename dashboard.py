@@ -80,7 +80,7 @@ def generate_pdf(text_content):
     safe_text = text_content.encode('latin-1', 'replace').decode('latin-1')
     pdf.multi_cell(0, 7, txt=safe_text)
     
-    return pdf.output(dest='S')
+    return bytes(pdf.output())
 
 # --- Sidebar ---
 with st.sidebar:
