@@ -61,6 +61,9 @@ Questions:
     return summary_text
 
 def generate_pdf(text_content):
+    # Remove emojis that break standard PDF fonts (like 🚫)
+    text_content = "".join(c for c in text_content if ord(c) <= 0xFFFF).replace('🚫', '')
+    
     # Create PDF using fpdf2
     pdf = FPDF()
     pdf.add_page()
