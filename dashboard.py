@@ -75,10 +75,13 @@ def generate_pdf(text_content):
     pdf.ln(10)
     
     # Body
+    pdf.add_font("NotoSansDevanagari", fname="NotoSansDevanagari-Regular.ttf")
     pdf.set_font("Helvetica", size=11)
-    # Encode to latin-1 and replace unknown chars to avoid FPDF character errors
-    safe_text = text_content.encode('latin-1', 'replace').decode('latin-1')
-    pdf.multi_cell(0, 7, txt=safe_text)
+    # Enable fallback font so Hindi Devanagari renders correctly
+    pdf.set_fallback_fonts(["NotoSansDevanagari"])
+    
+    # Write the full Unicode text natively
+    pdf.multi_cell(0, 7, txt=text_content)
     
     return bytes(pdf.output())
 
