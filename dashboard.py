@@ -26,37 +26,37 @@ def generate_summary_prompt(df):
         adult_men_bottoms = len(df[(df['age_group'] == 'Adult (31-45)') & (df['customer_gender'] == 'Male') & (df['category'] == 'Bottoms')])
     
     summary_text = f"""
-Sales Summary for the Month:
-Total Sales Records: {len(df)}
+EXECUTIVE SALES DATA SUMMARY:
+Total Transaction Volume: {len(df)}
 
-1. Product Performance:
-Top 3 Selling Products: {top_3}
-Bottom 3 Selling Products: {bottom_3}
+1. Product Velocity & Revenue Contribution:
+Top 3 High-Velocity SKUs: {top_3}
+Bottom 3 Slow-Moving SKUs: {bottom_3}
 
-2. Size Performance:
-Quantity Sold by Size: {size_sales}
+2. Inventory Health & Size Distribution:
+Sales Volume by Size: {size_sales}
 
-3. Day of Week Revenue:
-Revenue by Day: {day_sales}
+3. Traffic & Footfall Heatmap:
+Revenue Distribution by Day: {day_sales}
 
-4. Interesting Demographics Context:
-- Teenagers buying accessories: {teen_accessories} transactions
-- Adult men buying bottoms: {adult_men_bottoms} transactions
+4. Demographic Cross-Selling Opportunities:
+- Teen Accessories Penetration: {teen_accessories} transactions
+- Adult Men Bottoms Penetration: {adult_men_bottoms} transactions
 
-Please analyze this data and answer the following 5 questions (and 1 bonus question) in clear, simple English for a store manager. 
+TASK OBJECTIVE:
+Act as a Chief Retail Strategist. Analyze the provided multi-dimensional retail data to deliver a high-impact, actionable business intelligence report.
 
 CRITICAL INSTRUCTIONS FOR FORMATTING:
-- For Question 4 (Buying Patterns), DO NOT just repeat the numbers. You MUST write 2 detailed bullet points explaining the demographic trend and giving a specific store layout or stocking recommendation (e.g. placing accessories near the checkout counter).
-- Include the Bonus question: Which item should we put on sale this weekend and why?
-- You MUST provide the ENTIRE report in English.
-- At the very end, include a "What to Avoid 🚫" section with 3 strict warnings.
+- Do not merely parrot the data back. Extrapolate the 'why' behind the numbers.
+- Provide strategic, revenue-generating interventions (e.g., visual merchandising shifts, targeted discounting, or inventory rebalancing).
+- You MUST strictly format your response exactly according to the provided system template.
 
-Questions:
-1. Which products are selling well and which are not? (For the 3 slow products, give one simple reason why)
-2. Which size keeps running out? Which size is barely moving? 
-3. Which day of the week is the busiest? Which is the slowest? 
-4. Who is buying what? (Find 2 interesting demographic buying patterns and give actionable store advice)
-5. Give the store manager 3 clear, specific actions for next week.
+ADVANCED ANALYTICAL QUERIES TO RESOLVE:
+1. SKU Performance & Root Cause Analysis: Identify our hero products and dead-stock liabilities. Propose a specific hypothesis for the underperformance of the bottom 3 items.
+2. Inventory Optimization: Analyze the size distribution curve. Which sizes require an immediate purchase order, and which represent sunk capital?
+3. Footfall Monetization: Evaluate our daily revenue heatmap. Devise a tactical intervention to drive traffic on the lowest-performing day without cannibalizing weekend sales.
+4. Demographic Insights: Extract hidden behavioral patterns from the demographic data. How can we optimize floor layout or cross-merchandising to exploit these trends?
+5. Strategic Roadmap: Provide 3 immediate, high-ROI operational directives for the store manager to execute next week.
 """
     return summary_text
 
@@ -213,7 +213,7 @@ if st.button("Generate AI Insights", type="primary"):
                     messages=[
                         {
                             "role": "system",
-                            "content": "You are a brilliant retail data analyst. Provide specific, data-backed business answers based solely on the provided summary. Do not make up numbers. You MUST format your response to match the exact structure, tone, and headings of the following example report. Here is the strict template you must follow:\n\n" + open("store_report.md", "r", encoding="utf-8").read()
+                            "content": "You are an elite Chief Retail Strategist and Data Scientist. Provide advanced, data-backed business insights based solely on the provided quantitative and qualitative summary. Do not hallucinate numbers. You MUST format your response to match the exact structure, tone, and headings of the following example report. Here is the strict template you must follow:\n\n" + open("store_report.md", "r", encoding="utf-8").read()
                         },
                         {
                             "role": "user",
