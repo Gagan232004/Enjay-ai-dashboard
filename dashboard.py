@@ -209,7 +209,7 @@ if st.button("Generate AI Insights", type="primary"):
                 prompt = generate_summary_prompt(df)
                 
                 completion = client.chat.completions.create(
-                    model="llama-3.1-8b-instant",
+                    model="openai/gpt-oss-120b",
                     messages=[
                         {
                             "role": "system",
