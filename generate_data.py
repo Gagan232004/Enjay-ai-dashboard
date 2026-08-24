@@ -55,6 +55,8 @@ def generate_sale(sale_id, current_date):
     
     # Quantity
     quantity = random.choices([1, 2, 3], weights=[80, 15, 5])[0]
+    if day_of_week == 'Tuesday':
+        quantity = 5
     
     # Discount
     # Discount section that barely makes money: high discount on cheap items
