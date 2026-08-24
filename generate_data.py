@@ -106,7 +106,7 @@ current_date = start_date
 for i in range(1, num_rows + 1):
     # Skip some Tuesdays to make it slow
     while True:
-        if current_date.strftime('%A') == 'Tuesday' and random.random() > 0.2:
+        if current_date.strftime('%A') == 'Tuesday' and random.random() > 0.1:
             current_date += timedelta(days=1)
             continue
         break
