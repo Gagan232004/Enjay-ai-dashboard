@@ -70,11 +70,11 @@ def generate_pdf(text_content):
     for k, v in replacements.items():
         text_content = text_content.replace(k, v)
         
-    # Keep ONLY basic ASCII and Devanagari to prevent FPDF crashes
+    # Keep ONLY printable ASCII and Devanagari to prevent FPDF crashes
     safe_chars = []
     for c in text_content:
         o = ord(c)
-        if o < 128 or (0x0900 <= o <= 0x097F) or c in '\n\r\t':
+        if (32 <= o < 128) or (0x0900 <= o <= 0x097F) or c in '\n\r\t':
             safe_chars.append(c)
     text_content = "".join(safe_chars)
     
@@ -83,17 +83,17 @@ def generate_pdf(text_content):
     pdf.add_page()
     pdf.set_auto_page_break(auto=True, margin=15)
     
-    # Add a built-in font that supports basic latin
-    pdf.set_font("Helvetica", size=12)
+    # Add TTF fonts for Unicode support
+    pdf.add_font("OpenSans", fname="OpenSans-Regular.ttf")
+    pdf.add_font("NotoSansDevanagari", fname="NotoSansDevanagari-Regular.ttf")
     
     # Title
-    pdf.set_font("Helvetica", style="B", size=16)
+    pdf.set_font("OpenSans", size=16)
     pdf.cell(200, 10, txt="AI Retail Sales Report", ln=True, align='C')
     pdf.ln(10)
     
     # Body
-    pdf.add_font("NotoSansDevanagari", fname="NotoSansDevanagari-Regular.ttf")
-    pdf.set_font("Helvetica", size=11)
+    pdf.set_font("OpenSans", size=11)
     # Enable fallback font so Hindi Devanagari renders correctly
     pdf.set_fallback_fonts(["NotoSansDevanagari"])
     
